@@ -6,7 +6,7 @@ describe "Static pages" do
 
     it "should have the h1 'Home'" do
       visit '/static_pages/home'
-      page.should have_selector('h1', :text => 'Sample App')
+      page.should have_selector('h1', :text => 'Home')
     end
 
     it "should have the base title" do
@@ -25,7 +25,7 @@ describe "Static pages" do
 
     it "should have the h1 'Help'" do
       visit '/static_pages/help'
-      page.should have_selector('h1', :text => 'Sample App')
+      page.should have_selector('h1', :text => 'Help')
     end
 
     it "should have the base title" do
@@ -45,7 +45,7 @@ describe "Static pages" do
 
     it "should have the h1 'About Us'" do
       visit '/static_pages/about'
-      page.should have_selector('h1', :text => 'Sample App')
+      page.should have_selector('h1', :text => 'About Us')
     end
 
     it "should have the base title" do
@@ -65,7 +65,7 @@ describe "Static pages" do
 
     it "should have the h1 'Contact'" do
       visit '/static_pages/contact'
-      page.should have_selector('h1', :text => 'Sample App')
+      page.should have_selector('h1', :text => 'Contact')
     end
 
     it "should have the base title" do
